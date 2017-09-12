@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'pm-root',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['app.component.css'],
   template: `
       <div>
           <nav class='navbar navbar-default'>
