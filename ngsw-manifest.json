@@ -1,0 +1,19 @@
+{
+    "dynamic": {
+        "group": [
+            {
+                "name": "images",
+                "urls": "http://openclipart.org/",
+                "cache": {
+                    "optimizeFor": "performance",
+                    "maxAgeMs": 360000,
+                    "maxEntries": 20,
+                    "strategy": "lru" 
+                }
+            }
+        ]
+    },
+    "push": {
+        "showNotification": true
+    } 
+}
